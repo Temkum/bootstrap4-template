@@ -1,14 +1,15 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url("http://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
 html,
 body {
   height: 100%;
   width: 100%;
   color: #222;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
 .navbar-nav li {
@@ -47,11 +48,12 @@ body {
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #563d7c;
+  margin-left: 10px;
 }
 
-.btn-primary:hover {
+.btn-primary .started:hover {
   background-color: #6648b1;
-  border: 1px solid #563d7c;
+  border: 1px solid #7c543d;
 }
 
 .jumbotron {
@@ -72,7 +74,7 @@ body {
 .welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
 
@@ -99,7 +101,6 @@ body {
   width: 100%;
   margin-bottom: 2rem;
 }
-
 .gif {
   max-width: 100%;
 }
@@ -145,8 +146,8 @@ footer {
 
 hr.light {
   border-top: 1px solid #d5d5d5;
-  width: 70%;
-  margin-top: .8rem;
+  width: 75%;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
 
@@ -161,11 +162,12 @@ footer a {
 hr.light-100 {
   border-top: 1px solid #d5d5d5;
   width: 100%;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
+
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
@@ -173,7 +175,7 @@ hr.light-100 {
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .carousel-caption {
     top: 45%;
   }
@@ -181,13 +183,13 @@ hr.light-100 {
   .carousel-caption h1 {
     font-size: 350%;
     text-transform: uppercase;
-    font-family: 'Poppins';
+    font-family: "Poppins";
   }
 
   .carousel-caption h3 {
     font-size: 140%;
     font-weight: 400;
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
 
   .carousel-caption .btn {
@@ -213,13 +215,13 @@ hr.light-100 {
   .carousel-caption h1 {
     font-size: 250%;
     text-transform: uppercase;
-    font-family: 'Poppins';
+    font-family: "Poppins";
   }
 
   .carousel-caption h3 {
     font-size: 110%;
     font-weight: 400;
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
 
   .carousel-caption .btn {
@@ -237,6 +239,6 @@ hr.light-100 {
 
   .social a {
     font-size: 2em;
-    padding: .7rem;
+    padding: 0.7rem;
   }
 }
