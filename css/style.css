@@ -6,6 +6,7 @@ body {
   width: 100%;
   color: #222;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navbar {
